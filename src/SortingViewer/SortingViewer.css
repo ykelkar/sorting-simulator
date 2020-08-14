@@ -1,0 +1,36 @@
+.outer-container {
+    position: absolute;
+    width:100%;
+    bottom: 0;
+}
+.array-container {
+    position: relative;
+    bottom: 0;
+    display: table;
+    margin: auto;
+}
+
+.array-bar {
+    position: relative;
+    background-color: cornflowerblue;
+    display: inline-block;
+    margin: 0 1px;
+    vertical-align: bottom;
+}
+
+.bar-value {
+    position:absolute;
+    width:100%;
+    text-align:center;
+    margin: 0 auto;
+}
+
+.toolbar {
+    justify-content: center;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
